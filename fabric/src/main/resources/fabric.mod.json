@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.sshear.bagelsandlox.fabric.ExampleModFabric"
+      "dev.sshear.bagelsandlox.fabric.BagelsAndLoxFabric"
     ],
     "client": [
-      "dev.sshear.bagelsandlox.fabric.client.ExampleModFabricClient"
+      "dev.sshear.bagelsandlox.fabric.client.BagelsAndLoxFabricClient"
     ]
   },
   "mixins": [

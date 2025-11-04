@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bagelsandlox:bagel"
+    },
+    {
+      "item": "bagelsandlox:lox"
+    },
+    {
+      "item": "bagelsandlox:schmear"
+    }
+  ],
+  "result": {
+    "id": "bagelsandlox:bagel_with_lox"
+  }
+}
