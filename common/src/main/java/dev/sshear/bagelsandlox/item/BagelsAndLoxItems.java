@@ -31,13 +31,13 @@ public class BagelsAndLoxItems {
 
     public static void registerItems() {
         BAGEL = registerItem("bagel", () -> new Item(new Item.Properties()
-                .food(new FoodProperties.Builder().nutrition(4).build()).arch$tab(BAGELS_AND_LOX_TAB)));
+                .food(new FoodProperties.Builder().nutrition(6).saturationModifier(.5f).build()).arch$tab(BAGELS_AND_LOX_TAB)));
         BAGEL_WITH_SCHMEAR = registerItem("bagel_with_schmear", () -> new Item(new Item.Properties()
-                .food(new FoodProperties.Builder().nutrition(7).build()).arch$tab(BAGELS_AND_LOX_TAB)));
+                .food(new FoodProperties.Builder().nutrition(12).saturationModifier(.5f).build()).arch$tab(BAGELS_AND_LOX_TAB)));
         BAGEL_WITH_LOX = registerItem("bagel_with_lox", () -> new Item(new Item.Properties()
-                .food(new FoodProperties.Builder().nutrition(10).build()).arch$tab(BAGELS_AND_LOX_TAB)));
+                .food(new FoodProperties.Builder().nutrition(16).saturationModifier(.5f).build()).arch$tab(BAGELS_AND_LOX_TAB)));
         LOX = registerItem("lox", () -> new Item(new Item.Properties()
-                .food(new FoodProperties.Builder().nutrition(3).build()).arch$tab(BAGELS_AND_LOX_TAB)));
+                .food(new FoodProperties.Builder().nutrition(3).saturationModifier(.25f).build()).arch$tab(BAGELS_AND_LOX_TAB)));
         SCHMEAR = registerItem("schmear", () -> new Item(new Item.Properties().arch$tab(BAGELS_AND_LOX_TAB)));
         ITEMS.register();
         TABS.register();
